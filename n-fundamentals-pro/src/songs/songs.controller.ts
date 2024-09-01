@@ -5,7 +5,7 @@ import { Connection } from 'src/common/constants/connections';
 
 @Controller({
     path: 'songs',
-    // scope: Scope.REQUEST
+    scope: Scope.REQUEST
 })
 export class SongsController {
     constructor(private songsService: SongsService,
